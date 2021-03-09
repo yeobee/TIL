@@ -50,8 +50,9 @@
         1.1 settings.py에 폴더 경로를 설정한다
 
 2. 공통적으로 사용되는 템플릿을 정의한다. (base.html)
-   1. `block` 을 설정해서 상이한 내용이 오는 공간을 확보한다
-
+   
+1. `block` 을 설정해서 상이한 내용이 오는 공간을 확보한다
+   
 3. 사용한다
 
    - 템플릿 상단에`{% extends 'base.html'%}`을 추가한다
@@ -177,5 +178,7 @@ articles 폴더안에 templates 폴더 생성
 	<input type = 'text' id ='message' name='mijeongs'
 	<input type = 'submit'>
 </form>
+python manage.py runserver
 ```
 
+​	
