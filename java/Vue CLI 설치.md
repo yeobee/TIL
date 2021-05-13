@@ -3,7 +3,7 @@
 - npm install(i로써도됨) -g @vue/cli
   - vue-cil 설치
 - vue --version
-- npm -i
+- npm i
   - 버전확인
 - vue create my-first-vue-app
   - 프로젝트 생성
